@@ -334,6 +334,11 @@
   margin-bottom: 1px;
 }
 
+#bootstrap-overrides #rot {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
 #bootstrap-overrides #info {
   position: absolute;
   color: #000;
