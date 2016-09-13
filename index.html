@@ -1,0 +1,226 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Frederick Douglass Boulevard Harlem's Gateway and Restaurant Row</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Raleway:500|Abel|Lato:700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+</head>
+
+<body id="bootstrap-overrides">
+  <br>
+  <center>
+
+  	 <div class="row">
+  	 	<div class="col-md-12 col-xs-12" id="ju" style="padding-left: 0px; padding-right: 0px;">
+
+		  	<div class="jumbotron">
+		  		<h3>WELCOME TO</h3>
+		  		<h2>FREDERICK DOUGLASS BOULEVARD</h2>
+		  		<h3>HARLEM'S GATEWAY &amp; RESTAURANT ROW</h3>
+			</div>
+		</div>
+
+  		<div class="col-md-7 col-xs-7" id="lef" style="padding-right: 0px;">
+  			<div id="map" style="float:right">
+  				<!-- <div id="infoWindow"></div> -->
+	  			
+	  			<div class="d">
+				  <button class="well well-sm" id="info" data-toggle="tooltip" data-placement="right" title="Tooltipsdfsfht"><i class="fa fa-info-circle"></i>
+				  </button>
+				</div>
+
+<!-- 			  	<center><font face="Lato">Amenities <i class="fa fa-info-circle"></i></font></center>
+			  	<i class="fa fa-circle" id="par"></i> &nbsp;Parks<br>
+			  	<i class="fa fa-circle" id="cf"></i> &nbsp;Community Facility/Residential<br>
+			  	<i class="fa fa-circle" id="vac"></i> &nbsp;Vacant<br>
+			  	<img id="ot" src="img/p.png" height="18" width="18"> &nbsp;Parking<br>
+			  	<img id="ot" src="img/a.png" height="16" width="16"><img id="ot" src="img/c.png" height="16" width="16"><img id="ot" src="img/b.png" height="16" width="16"><img id="ot" src="img/d.png" height="16" width="16"> &nbsp;Subway Stations
+			  </button>
+		</div>
+
+ -->
+  			</div>
+
+
+
+  		</div>
+		
+		<div class="col-md-5 col-xs-5" id="rig" style="padding-left: 2px; ">
+
+		 <div class="dropdown open">
+		  <button type="button" id="restb" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+		     Restaurants / Bars / Lounges  <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" id="resta" style="margin-top: 0px; padding-bottom: 0px; padding-top: 0px">
+		  </ul>
+		</div>
+
+
+		 <div class="dropdown">
+		  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+		   Other Food / Beverage Establishments <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" id="otherf" style="margin-top: 0px; padding-bottom: 0px; padding-top: 0px">
+		  </ul>
+		</div>
+
+
+		 <div class="dropdown">
+		  <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Services <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" id="services" style="margin-top: 0px; padding-bottom: 0px; padding-top: 0px">
+		  </ul>
+		</div>
+   
+   
+		 <div class="dropdown">
+		  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+		     Retail <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" id="retail" style="margin-top: 0px; padding-bottom: 0px; padding-top: 0px">
+		  </ul>
+		</div>
+
+		
+		 <div class="dropdown">
+		  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Beauty &amp; Health <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" id="beauhea" style="margin-top: 0px; padding-bottom: 0px; padding-top: 0px">
+		  </ul>
+		</div>
+
+
+		<div class="d">
+			  <button class="well well-sm" id="direct" style="padding-top: 5px;"><center><font face="Lato">Amenities <i class="fa fa-info-circle"></i></font></center>
+			  	<i class="fa fa-circle" id="par"></i> &nbsp;Parks<br>
+			  	<i class="fa fa-circle" id="cf"></i> &nbsp;Community Facility/Residential<br>
+			  	<i class="fa fa-circle" id="vac"></i> &nbsp;Vacant<br>
+			  	<img id="ot" src="img/p.png" height="18" width="18"> &nbsp;Parking<br>
+			  	<img id="ot" src="img/a.png" height="16" width="16"><img id="ot" src="img/c.png" height="16" width="16"><img id="ot" src="img/b.png" height="16" width="16"><img id="ot" src="img/d.png" height="16" width="16"> &nbsp;Subway Stations
+			  </button>
+		</div>
+
+
+
+
+<!-- 		<div class="d">
+
+		<button class="well well-sm" id="direct">Source: <a href="http://www1.nyc.gov/site/doitt/index.page" target="_blank">New York City Department of Information Technology and Telecommunications (DoITT)</a>, <a href="http://www1.nyc.gov/site/planning/index.page" target="_blank">New York City Department of City Planning</a>, <a href="http://www.harlemcdc.org/" target="_blank">Harlem Community Development Corporation Field Surveys</a>. Map made by <a href="http://www.lucykang.com" target="_blank">Lucy Kang</a>, Sept. 2016.</div>
+
+		</div>
+ -->
+</div>
+
+<div class="col-md-12 col-xs-12" id="caro" style="padding-left: 0px; padding-right: 0px;">
+
+
+
+<div class="dwuserEasyRotator" style="width: 80%; height: 400px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:true, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-108-117-99-107-121-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1, randomize:true, audio_showController:false}" data-erName="fdba" data-erResponsiveRatio="{150:40}" data-erTID="{lrmtfad428104864473741}">
+	<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+	<li>
+		<img class="main" id="ang" src="img2/hartav.jpg" />
+		<img class="thumb" src="img2/hartav.jpg" />
+	</li>
+	<li>
+		<img class="main" id="hartav" src="img2/ang.jpg" />
+		<img class="thumb" src="img2/ang.jpg" />
+	</li>
+	<li>
+		<img class="main" id="ae" src="img2/67o.jpeg" />
+		<img class="thumb" src="img2/67o.jpeg" />
+	</li>
+	<li>
+		<img class="main" id="ac" src="img2/ll2.jpg" />
+		<img class="thumb" src="img2/ll2.jpg" />
+	</li>
+	<li>
+		<img class="main" id="ar" src="img2/hsc.jpg" />
+		<img class="thumb" src="img2/hsc.jpg" />
+	</li>
+</ul>
+</div>
+	<div data-ertype="layout" data-ertemplateName="NONE" style="">			<!-- <div style="position: absolute; left:0;width:100px;bottom:0;height:20px; background:url(http://easyrotator.s3.amazonaws.com/1/i/rotator/bottom_shadow/l_s1.png) no-repeat; border-bottom: 1px solid #BBB;"></div>
+<!-- 			<div style="position: absolute; left:100px;right:100px;bottom:0;height:20px; background:url(http://easyrotator.s3.amazonaws.com/1/i/rotator/bottom_shadow/m_s1.png) repeat-x; border-bottom: 1px solid #BBB;"></div>
+			<div style="position: absolute; right:0;width:100px;bottom:0;height:20px; background:url(http://easyrotator.s3.amazonaws.com/1/i/rotator/bottom_shadow/r_s1.png) no-repeat; border-bottom: 1px solid #BBB;"></div> -->
+			<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:0;" data-erConfig="{numTiles:4, scrollSize:1, scaleMode:'fillArea', imgType:'main', treatAsThumbs:true, addMainSlideLinks:false, __loopNextButton:false, __arrowButtonMode:'rollover', alwaysPreviousButton:true}">
+				<div class="erimgMain_slides" style="position: absolute; left:40px; top:0; bottom:0; right:40px;">
+					<div class="erimgMain_slide" style="color: #FFF;">
+						<div class="erimgMain_img spatzCustom_erimgMain_img" style="position: absolute; left: 10px; right: 10px; top:0; bottom:70px;"></div>
+						<div class="textBox" style="position: absolute; left: 10px; right: 10px; bottom: 10px; height: 50px; padding: 0; color: #333; font-family: Verdana, sans-serif;">
+							<p class="erimgMain_title" style="line-height: 14px; font-size: 11px; margin: 0; padding: 0;"></p>
+						</div>
+					</div>
+				</div>
+				<div class="erimgMain_arrowLeft" style="position:absolute; left: 0; top: 50%; margin-top: -35px;" data-erConfig="{image:'arrowMin', image2:'arrowMin'}"></div>
+				<div class="erimgMain_arrowRight" style="position:absolute; right: 0; top: 50%; margin-top: -35px;" data-erConfig="{image:'arrowMin', image2:'arrowMin'}"></div>
+			</div>
+			<style type="text/css">
+			div.spatzCustom_erimgMain_img {
+				 border: 1px solid #FFF;
+				-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.7);
+				-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.7);
+				box-shadow: 0 1px 5px 0 rgba(0,0,0,0.7);
+				margin-top: 2px;
+			}
+			</style><div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+			
+			<br /><br />
+            <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank"><a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank"></a> 
+			<br /><br />
+			<a style="color:#FFF;" href="#" class="erabout_ok"></a>   
+		</div>
+		<noscript>
+	
+		</noscript>
+		<script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>
+	
+	</div>
+</div>
+
+
+
+
+
+
+
+
+	  </div>
+		
+	 
+
+  	</div>
+	
+  </center>
+
+  <script src="data/resta.geojson.js"></script>
+  <script src="data/otherf.geojson.js"></script>
+  <script src="data/services.geojson.js"></script>
+  <script src="data/retail.geojson.js"></script>
+  <script src="data/beauhea.geojson.js"></script>
+  <script src="data/others.geojson.js"></script>
+  <script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
