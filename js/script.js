@@ -591,7 +591,7 @@ if(feature.feature.properties.OBJECTID==16) {
 });
 
 
-  $("#caro").click(function(e) {
+  $("#rot").click(function(e) {
  e.stopPropagation();
 
 });
