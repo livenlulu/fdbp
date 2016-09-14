@@ -641,10 +641,7 @@ if(feature.feature.properties.OBJECTID==113) {
 });
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
   $("#rot").click(function(e) {
  e.stopPropagation();
 
