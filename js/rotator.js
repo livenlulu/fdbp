@@ -4565,7 +4565,7 @@ var er_swfobject22 = function() {
                             textDecoration: "underline !important"
                         });
                         var A = "er_" + (p.random() + "").split(".").join("") + "_cm",
-                            F = d('<ul id="' + A + '" class="er_cm" style="display: none;"><li wasclass="separator"><a href="#about">About Rotator...</a></li></ul>');
+                            F = d('');
                         d("body").append(F);
                         g || b.contextMenu({
                             menu: A

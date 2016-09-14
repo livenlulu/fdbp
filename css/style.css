@@ -8,6 +8,12 @@
     font-weight: 500;
   }
 
+  #bootstrap-overrides .list-group li a {
+    font-family: Roboto;
+    font-weight: 300;
+  }
+
+
   #bootstrap-overrides h6 {
     font-size: 13px;
     margin-top: 0px;
@@ -33,10 +39,16 @@
     cursor: hand; 
   }
 
-  #bootstrap-overrides .main{ 
+  #bootstrap-overrides #ang { 
     cursor: pointer; 
     cursor: hand; 
   }
+
+    #bootstrap-overrides .main { 
+    cursor: pointer; 
+    cursor: hand; 
+  }
+
 
   #bootstrap-overrides h5 {
     margin-bottom: 5px;
@@ -82,15 +94,34 @@
  
   #bootstrap-overrides h2 {
     font-size: 28px;
-    font-family: Lato;
+    font-family: Oswald;
   }
 
   #bootstrap-overrides .jumbotron {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100%;
+    margin-bottom: 25px;
+    background-color: #eee;
+    border-color: #2F6391;
+  
   }
 
+  #bootstrap-overrides .panel h3 {
+    font-size: 17px;
+  }
+
+  #bootstrap-overrides #closeb {
+    width:10px;
+    float:right;
+    font-family: Roboto;
+    border-radius: 4px;
+    min-width: 90px;
+  }
+
+  #bootstrap-overrides #aboutModal a {
+    color:black;
+  }
 
   #bootstrap-overrides h3 {
     font-size: 20px;
@@ -117,7 +148,7 @@
   }
 
 
-  #infoWindow {
+/*  #infoWindow {
     background: #fff;
     color: #000;
     padding: 10px;
@@ -128,11 +159,11 @@
     font-family: Lato;
     width: auto;
     display: block;
-    left: 10px;
+    right: 10px;
     top: 540px;
     font-weight: 400;
     z-index: 300;
-  }
+  }*/
 
 #bootstrap-overrides .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
@@ -334,13 +365,22 @@
   margin-bottom: 1px;
 }
 
+#bootstrap-overrides #rot {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#bootstrap-overrides #rig {
+  float:center;
+}
+
 #bootstrap-overrides #info {
   position: absolute;
   color: #000;
   background-color: #fff;
   border-color: #B6B6B6;
-  top:70px;
-  left: 2%;
+  bottom:2%;
+  right: 32%;
   text-align: left;
   font-family: Lato;
   font-size: 18px;
@@ -349,25 +389,13 @@
   float: left;
   border-radius: 4px;
   z-index: 200;
-  padding: 10px;
-  padding-left: 17px;
-  padding-right: 17px;
+  padding: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-bottom: 0px;
 }
 
 
-
-#info + .tooltip > .tooltip-inner {
-  background-color: #fff;
-  padding: 10px;
-  color: #000;
-  box-shadow:3px 3px 2px #bbb;
-
-}
-
-.tooltip-arrow {
-  background-color: #fff;
-
-}
 
 
 #bootstrap-overrides .popover-content {
