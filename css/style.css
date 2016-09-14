@@ -39,14 +39,15 @@
     cursor: hand; 
   }
 
-  
-
-    #bootstrap-overrides .main { 
-
+  #bootstrap-overrides #ang { 
     cursor: pointer; 
     cursor: hand; 
   }
 
+    #bootstrap-overrides .main { 
+    cursor: pointer; 
+    cursor: hand; 
+  }
 
 
   #bootstrap-overrides h5 {
@@ -108,16 +109,7 @@
 
   #bootstrap-overrides .panel h3 {
     font-size: 17px;
-
-
-  #bootstrap-overrides #closeb {
-    width:10px;
-    float:right;
-    font-family: Roboto;
-    border-radius: 4px;
-    min-width: 90px;
   }
-
 
   #bootstrap-overrides #closeb {
     width:10px;
@@ -378,11 +370,9 @@
   padding-bottom: 30px;
 }
 
-
 #bootstrap-overrides #rig {
   float:center;
 }
-
 
 #bootstrap-overrides #info {
   position: absolute;
@@ -458,6 +448,5 @@
 
   vertical-align: -4px;
 }
-
 
 
