@@ -494,19 +494,19 @@ if(feature.feature.properties.OBJECTID==56) {
  $("#hslc").click(function(e) {
  e.stopPropagation();
 geojson5.eachLayer(function(feature){
-<<<<<<< HEAD
+
 
 if(feature.feature.properties.OBJECTID==49) {
   feature.openPopup();
 }
 
-=======
+
 
 if(feature.feature.properties.OBJECTID==49) {
   feature.openPopup();
 }
 
->>>>>>> gh-pages
+
 });
 });
 
@@ -531,7 +531,6 @@ if(feature.feature.properties.OBJECTID==80) {
 
 });
 });
-<<<<<<< HEAD
 
 
  $("#lev").click(function(e) {
@@ -539,7 +538,7 @@ if(feature.feature.properties.OBJECTID==80) {
 geojson2.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==125) {
-=======
+
 
 
  $("#lev").click(function(e) {
@@ -571,7 +570,7 @@ if(feature.feature.properties.OBJECTID==98) {
 geojson3.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==95) {
->>>>>>> gh-pages
+
   feature.openPopup();
 }
 
@@ -579,19 +578,19 @@ if(feature.feature.properties.OBJECTID==95) {
 });
 
 
-<<<<<<< HEAD
+
  $("#lid").click(function(e) {
  e.stopPropagation();
 geojson1.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==98) {
-=======
+
  $("#vin").click(function(e) {
  e.stopPropagation();
 geojson1.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==129) {
->>>>>>> gh-pages
+
   feature.openPopup();
 }
 
@@ -599,78 +598,75 @@ if(feature.feature.properties.OBJECTID==129) {
 });
 
 
-<<<<<<< HEAD
  $("#spr").click(function(e) {
  e.stopPropagation();
 geojson3.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==95) {
-=======
+
  $("#beb").click(function(e) {
  e.stopPropagation();
 geojson4.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==39) {
->>>>>>> gh-pages
   feature.openPopup();
 }
 
 });
 });
 
-<<<<<<< HEAD
+
 
  $("#vin").click(function(e) {
  e.stopPropagation();
 geojson1.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==129) {
-=======
+
  $("#zoe").click(function(e) {
  e.stopPropagation();
 geojson1.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==70) {
->>>>>>> gh-pages
+
   feature.openPopup();
 }
 
 });
 });
 
-<<<<<<< HEAD
 
  $("#beb").click(function(e) {
  e.stopPropagation();
 geojson4.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==39) {
-=======
+
  $("#moc").click(function(e) {
  e.stopPropagation();
 geojson1.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==53) {
->>>>>>> gh-pages
+
   feature.openPopup();
 }
 
 });
 });
-<<<<<<< HEAD
+
 
  $("#zoe").click(function(e) {
  e.stopPropagation();
 geojson1.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==70) {
-=======
+
  $("#xwyz").click(function(e) {
  e.stopPropagation();
 geojson1.eachLayer(function(feature){
 
 if(feature.feature.properties.OBJECTID==113) {
->>>>>>> gh-pages
+
   feature.openPopup();
 }
 
@@ -725,17 +721,13 @@ if(feature.feature.properties.OBJECTID==113) {
 });
 
 
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> gh-pages
   $("#rot").click(function(e) {
  e.stopPropagation();
-=======
+
 //   $("#rig").click(function(e) {
 //  e.stopPropagation();
->>>>>>> master
+
 
 // });
 
