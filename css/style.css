@@ -40,15 +40,26 @@
   }
 
   #bootstrap-overrides #ang { 
+<<<<<<< HEAD
+=======
     cursor: pointer; 
     cursor: hand; 
   }
 
     #bootstrap-overrides .main { 
+>>>>>>> gh-pages
     cursor: pointer; 
     cursor: hand; 
   }
 
+<<<<<<< HEAD
+    #bootstrap-overrides .main { 
+    cursor: pointer; 
+    cursor: hand; 
+  }
+
+=======
+>>>>>>> gh-pages
 
   #bootstrap-overrides h5 {
     margin-bottom: 5px;
@@ -109,6 +120,7 @@
 
   #bootstrap-overrides .panel h3 {
     font-size: 17px;
+<<<<<<< HEAD
   }
 
   #bootstrap-overrides #closeb {
@@ -119,6 +131,18 @@
     min-width: 90px;
   }
 
+=======
+  }
+
+  #bootstrap-overrides #closeb {
+    width:10px;
+    float:right;
+    font-family: Roboto;
+    border-radius: 4px;
+    min-width: 90px;
+  }
+
+>>>>>>> gh-pages
   #bootstrap-overrides #aboutModal a {
     color:black;
   }
@@ -371,12 +395,22 @@
 }
 
 <<<<<<< HEAD
+
+
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> gh-pages
 #bootstrap-overrides #rig {
   float:center;
 }
 
+<<<<<<< HEAD
+
+
+=======
 >>>>>>> master
+>>>>>>> gh-pages
 #bootstrap-overrides #info {
   position: absolute;
   color: #000;
