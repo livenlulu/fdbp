@@ -370,12 +370,15 @@
   padding-bottom: 30px;
 }
 
+<<<<<<< HEAD
 
 #bootstrap-overrides #rig {
   float:center;
 }
 
 
+=======
+>>>>>>> origin/master
 #bootstrap-overrides #info {
   position: absolute;
   color: #000;
