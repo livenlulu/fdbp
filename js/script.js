@@ -641,8 +641,9 @@ if(feature.feature.properties.OBJECTID==113) {
 });
 
 
-//   $("#rig").click(function(e) {
-//  e.stopPropagation();
+
+  $("#rot").click(function(e) {
+ e.stopPropagation();
 
 // });
 
