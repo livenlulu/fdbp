@@ -95,6 +95,7 @@
   #bootstrap-overrides h2 {
     font-size: 28px;
     font-family: Oswald;
+    margin-top:15px;
   }
 
   #bootstrap-overrides .jumbotron {
